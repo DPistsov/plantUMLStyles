@@ -1,12 +1,12 @@
 skinparam arrowThickness             1
 skinparam sequence{
-    LifeLineBorderColor        #C8C8C8
+    LifeLineBorderColor        #4672C4
     ParticipantBorderColor     #C8C8C8
     boxBorderColor             #9BAAC7
     
     ' boxBorderThickness         5
     
-    boxBackgroundColor         #D6D6D6
+    boxBackgroundColor         #F5F5F5
     
     ArrowColor                 #4672C4
 
