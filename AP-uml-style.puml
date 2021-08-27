@@ -1,37 +1,91 @@
-skinparam arrowThickness             1
-skinparam sequence{
-    LifeLineBorderColor        #4672C4
-    ParticipantBorderColor     #C8C8C8
-    boxBorderColor             #9BAAC7
-    
-    ' boxBorderThickness         5
-    
-    boxBackgroundColor         #F5F5F5
-    
-    ArrowColor                 #4672C4
+skinparam arrow{
+    Thickness                   2
+    Color                       #4672C4
 
-    LifeLInebackgroundColor    #4672C4
+    FontName                    calibri
+    FontColor                   #4672C4
+}
 
-    ParticipantBackgroundColor #4672C4
+skinparam sequenceBox{
+    BackgroundColor             #F5F5F5
+    BorderColor                 #9BAAC7
+    BorderThickness             5
 
-    GroupBorderThickness       1
-    GroupBorderColor           #9BAAC7
+    FontName                    calibri
+    FontColor                   #4672C4
+}
+skinparam box{
+    Padding                     10
+}
+
+skinparam SequenceLifeLine{
+    BorderColor                 #4672C4
+    backgroundColor             #4672C4
+}
+
+skinparam sequenceParticipant{
+    BorderColor                 #C8C8C8
+    BackgroundColor             #4672C4
+    Padding                     5
+    BorderThickness             1
+    Padding                     80
+
+    FontName                    calibri
+    FontColor                   #FFFFFF
+}
+
+skinparam Database{
+    BackgroundColor             #4672C4
+    BorderColor                 #C8C8C8
+    
+    FontName                    calibri
+    FontColor                   #4672C4
+}
+
+skinparam sequenceGroup{
+    BorderThickness             1
+    BorderColor                 #9BAAC7
+    BackgroundColor             #9BAAC7    
+    BorderColor                 #9BAAC7
+
+    HeaderFontName              calibri
+    HeaderFontColor             #FFFFFF
+
+    FontName                    calibri
+'    FontColor                   #474747
+}
+
+skinparam actor{
+    BackgroundColor             #4672C4
+    BorderColor                 #4672C4
+
+    FontName                    calibri
+    FontColor                   #4672C4
 }
 
 skinparam Object{
-    BackgroundColor #4672C4
-    BorderColor     #263479
-    FontStyle       bold
-    FontSize        18
-    AttributeFontSize 14
+    BackgroundColor             #4672C4
+    BorderColor                 #263479
+    FontStyle                   bold
+    FontSize                    18
+    AttributeFontSize           14
 }
 
-' skinparam NoteShadowing              true
-skinparam DatabaseBorderColor        #263479
-skinparam DatabaseBackgroundColor    #4672C4
-skinparam ParticipantPadding         5
-skinparam ParticipantBorderThickness 1
-skinparam Shadowing                  false
-skinparam BoxPadding                 10
-skinparam roundcorner                0
-skinparam backgroundColor            white 
+skinparam note{
+    ' BackgroundColor             #F5F5F5
+    BackgroundColor             #FFFFFF
+    BorderColor                 #4672C4
+
+    FontName                    calibri
+    FontColor                   #4672C4
+}
+
+skinparam Shadowing             false
+
+skinparam roundcorner           0
+skinparam backgroundColor       white 
+
+skinparam SequenceStereotypeFontName calibri
+skinparam SequenceReferenceFontName calibri
+skinparam SequenceDividerFontName calibri
+skinparam SequenceTitleFontName calibri
