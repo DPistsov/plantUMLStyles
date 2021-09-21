@@ -37,6 +37,7 @@ skinparam sequenceParticipant{
 skinparam Database{
     BackgroundColor             #4672C4
     BorderColor                 #C8C8C8
+    Padding                     5
     
     FontName                    calibri
     FontColor                   #4672C4
