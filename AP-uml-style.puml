@@ -26,9 +26,8 @@ skinparam SequenceLifeLine{
 skinparam sequenceParticipant{
     BorderColor                 #C8C8C8
     BackgroundColor             #4672C4
-    Padding                     5
     BorderThickness             1
-    Padding                     80
+    Padding                     50
 
     FontName                    calibri
     FontColor                   #FFFFFF
@@ -37,7 +36,7 @@ skinparam sequenceParticipant{
 skinparam Database{
     BackgroundColor             #4672C4
     BorderColor                 #C8C8C8
-    Padding                     5
+    Padding                     50
     
     FontName                    calibri
     FontColor                   #4672C4
