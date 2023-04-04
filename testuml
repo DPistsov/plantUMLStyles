@@ -1,6 +1,6 @@
 @startuml test
 
-!import https://raw.githubusercontent.com/DPistsov/plantUMLStyles/main/AP-uml-style.puml
+!include https://raw.githubusercontent.com/DPistsov-kode/uml-style/master/patient-uml-style.puml
 
 
 
